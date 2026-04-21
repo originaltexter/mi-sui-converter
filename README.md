@@ -24,6 +24,8 @@ for quarterly wage reporting.
 
 ### Option A — Use the pre-built .EXE
 Download the EXE from the Releases page
+Run the program, if you get a windows defender warning, click 'More info', then 'Run anyway'
+
 
 ### Option B — Run the Python script directly
 pip install pandas openpyxl
@@ -46,6 +48,9 @@ python sui_converter.py
 
 ## Notes
 
+- Ensure you have run 'Create State SUI E-file" from Employees -> Payroll Tax Forms & W-2s -> Create State SUI E-file.
+  <img width="539" height="546" alt="image" src="https://github.com/user-attachments/assets/af3f94e2-4cee-426c-bd61-9e1f0f5ad7c8" />
+- After the workbook has opened and you have imported the QB data and done the interview process in the workbook, save it and run the tool. Load that file into the tool.
 - Wages are sourced from the **State Report** sheet (QB's SUI-subject wages for the quarter)
 - Employees with $0 wages for the quarter are excluded automatically
 - Unit number is hardcoded to `000` (single-location employer)

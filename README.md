@@ -1,3 +1,5 @@
+# Update 08-2026 -- QuickBooks has updated their software to export the proper file for MISui. This tool is obsolete.
+
 # Michigan MiUI SUI Wage Report Converter
 
 Converts a **QuickBooks Desktop** SUI 1028 export (`.xlsm`) into the
